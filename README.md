@@ -29,4 +29,4 @@ If you have a lot of floating-point numbers (data stored in hard disk files) and
 2 for each small files for one-off internal sorting, will return to orderly small file disk   
 3 because each small file is orderly, and then we just need to these little merged into one big file.
 The method of merging is to look at the first number in each small file and take the smallest number and store it in the larger file of the final result.Until all the data from the smaller files is merged into the larger file.   
-4 The result is a large file that is ordered.   
+4 The result is a large file that is ordered.     
